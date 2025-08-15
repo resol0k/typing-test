@@ -1,37 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0d0d0d;
+    color: #00ffcc;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 600px;
+.game-container {
+    max-width: 700px;
     margin: 50px auto;
-    background: white;
+    background: #1a1a1a;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,255,204,0.3);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00ffe1;
 }
 
 textarea {
     width: 100%;
-    height: 100px;
-    margin-top: 20px;
-    font-size: 16px;
+    height: 120px;
+    margin-top: 15px;
+    font-size: 18px;
     padding: 10px;
+    background: #000;
+    color: #0f0;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
 }
 
 .stats {
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 1.1em;
 }
 
 button {
     margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #00ffcc;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
+    color: #000;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #00e6b8;
+}
+
+.countdown {
+    font-size: 3em;
+    color: #ff0066;
+    margin: 10px 0;
 }
